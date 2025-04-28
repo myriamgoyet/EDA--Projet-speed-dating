@@ -20,5 +20,9 @@ The dataset also includes questionnaire data gathered from participants at diffe
 
 [Dataset Description](https://full-stack-assets.s3.eu-west-3.amazonaws.com/M03-EDA/Speed+Dating+Data+Key.doc)
 
-## Deliverable 📬
+## How I answered 📬
 
+1. **Breif description of the main aspects of the dataset** : how many events, how many attendees, what outcome (match?). This part also include a small analysis of missing values.
+2. **Brief analysis of participant profile men vs women** : Age, race, profession, frequency of dating or going out... 
+3. **Expectations regarding this event** : what are they looking for? whould their profile interest other? do they expect to be happy with people they meet at the event?
+4. **Dating priorisation** : is sahring same race or religion important?
