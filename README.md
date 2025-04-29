@@ -12,9 +12,16 @@ Tinder then gathered the data from this experiment. Each row in the dataset repr
 
 ## Scope of this project 🖼️
 
-Data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four minute "first date" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests.
+Data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four minute "first date" with every other participant of the opposite sex. 
 
-The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information. See the Speed Dating Data Key document below for details.
+The dataset also includes questionnaire data gathered from participants at different points in the process:
+1. **Before attending the event (Signup/Time1) :** demographics, dating habits, self-perception across key attributes (Attractive, Sincere, Intelligent, Fun, Ambitious, Shared Interest), beliefs on what others find valuable in a mate, how important these attribues are for them in a date, lifestyle information...
+2. **During the event (Scorecard) :** after each speed date, the participants secretly answer if they would go on a second date with their partner and evaluate them on key attributes. Half way through meeting all potential dates during the night, the participants are asked again about the importance of key attribues in a date and how they percieve themself.
+3. **A day after the event (Followup/Time2) :** general satisfaction about the people they met, global question about the speed dating event. Once again, evaluation of key attributes (what's important for them, for other, self-perception)
+4. **3-4 weeks after the event (Followup/Time3) :** what happend after the event (second date?). One last time, evaluation of key attributes (what's important for them, for other, self-perception)
+
+
+See the Speed Dating Data Key document below for details.
 
 [Dataset](https://full-stack-assets.s3.eu-west-3.amazonaws.com/M03-EDA/Speed+Dating+Data.csv)
 
@@ -22,7 +29,14 @@ The dataset also includes questionnaire data gathered from participants at diffe
 
 ## How I answered 📬
 
-1. **Breif description of the main aspects of the dataset** : how many events, how many attendees, what outcome (match?). This part also include a small analysis of missing values.
-2. **Brief analysis of participant profile men vs women** : Age, race, profession, frequency of dating or going out... 
-3. **Expectations regarding this event** : what are they looking for? whould their profile interest other? do they expect to be happy with people they meet at the event?
-4. **Dating priorisation** : is sharing same race or religion important?
+1. **Breif description of the main aspects of the dataset** : Number of events, number of attendees, and the main outcome (match or not). This section also includes a short analysis of missing values.
+2. **Brief analysis of participants' profiles men vs. women** : Age, race, profession, dating or social habits, and self-evaluation across key attributes. 
+3. **Expectations regarding this event** : What are participants looking for? Would their profile be appealing to others? Do they expect to be happy with the people they meet at the event?
+4. **Dating priorities** : What are they looking for? What do they think others are looking for? Is sharing the same race or religion important?
+5. **Hipothesis on what makes a match** :  In this final section, I tested six hypotheses:
+    - More choice leads to a higher chance of matching.
+    - Those who consider race important tend to like people of the same race.
+    - People are more likely to match with partners who have similar ratings of interests.
+    - Some fields of activity have higher match rates than others.
+    - Certain attributes increase the chances of getting a match.
+    - Being the first date of the night improves the chances of getting a second date.
