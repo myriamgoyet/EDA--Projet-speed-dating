@@ -1,4 +1,4 @@
-# Speed dating project - EDA
+# PROJECT TINDER - ANALYSIS OF SPEED DATING EVENTS 
 
 Fictive project completed as part of my Data Science Fullstack training at Jedha (Paris).
 
